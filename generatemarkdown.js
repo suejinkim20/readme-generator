@@ -1,13 +1,32 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-if (license){
-    //need a quick action to remove spaces
-    const licenseText = license.split(" ").join("-").toLowerCase();
-    return "https://img.shields.io/badge/license-" + licenseText + "-blue.svg"
-} else {
-    return ""
-}
+    switch (license) {
+        case "MIT License":
+            return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+
+            break
+        case "GNU GPLv3":
+            return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
+            
+            break
+        case "Mozilla Public License 2.0":
+            return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
+            
+            break
+        case "Apache License 2.0":
+            return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+            
+            break
+        case "Boost Software License 1.0":
+            return "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)"
+            
+            break
+        case "The Unlicense":
+            return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)"
+            
+            break
+    }
 }
 
 // TODO: Create a function that returns the license link
@@ -1412,8 +1431,6 @@ ${data.contributing}
 ${data.testing}
 
 ## License
-
-${data.license}
 
 ${renderLicenseLink(data.license)}
 
