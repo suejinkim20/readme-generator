@@ -31,7 +31,7 @@ function renderLicenseLink(license) {
             
             break
         case "Boost Software License 1.0":
-            return "[Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)";;
+            return "[Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)"
             
             break
         case "The Unlicense":
