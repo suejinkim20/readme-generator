@@ -1,30 +1,45 @@
 # ${data.title} 
+${renderLicenseBadge(data.license)}
 
 ## Description
+
 ${data.description}
 
 ## Table of Contents
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Contributing Guidlines](#contributing-guidelines)
-4. [Testing Instructions](#testing-instructions)
-5. [License](#license)
-6. [Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Testing](#testing)
+* [License](#license)
+* [Questions](#questions)
 
 ## Installation
-${data.installation}
+
+To install ncessary dependecies, run the following command:
+
+    ${data.installation}
+
 
 ## Usage
+
 ${data.usage}
 
-## Contributing Guidelines
+## Contributing
+
 ${data.contributing}
 
-## Testing Instructions
+## Testing
+
 ${data.testing}
 
 ## License
-${data.license}
+
+${renderLicenseLink(data.license)}
+
+${renderLicenseSection(data.license, data.year, data.fullname)}
 
 ## Questions
-Have questions? Please contact me at ${data.email}
+
+Have questions? Please contact me at [${data.email}](mailto:${data.email})
+
+GitHub Profile: [${data.github}](https://github.com/${data.github})

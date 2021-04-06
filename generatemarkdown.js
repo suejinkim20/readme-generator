@@ -1406,14 +1406,14 @@ ${data.description}
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing Guidlines](#contributing-guidelines)
-* [Testing Instructions](#testing-instructions)
+* [Contributing](#contributing)
+* [Testing](#testing)
 * [License](#license)
 * [Questions](#questions)
 
 ## Installation
 
-To Install ncessary dependecies, run the following command:
+To install ncessary dependecies, run the following command:
 
     ${data.installation}
 
