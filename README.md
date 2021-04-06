@@ -7,24 +7,39 @@ This application is a command line application that generates a ReadMe document 
 
 * The user is prompted to answer a series of questions. Upon completion, a readme.md file is generated containing the following information:
     * Title of the project
-    * 
-* Table of Contents
+    * Description
+    * Installation
+    * Usage
+    * Contributing
+    * Testing
+    * License
+        * Corresponding badge is generated near the top of the readMe
+        * A link to the license is placed in this license section
+        * The text for the license is displayed in this license section
+    * Questions
+        * Email address opens in default email application using "mailto:"
+        * GitHub profile is linked to user's github profile page
+* Table of Contents is linked to headings
+* The installation, license choice, and year for license purpose have default values.
 
-
-### Issues
-* 
 
 ## Usage
+In order to use this application, you must have Node.js installed, as well as the Inquirer package (see links below in Credits).
 
-The page has the following appearance:
+The following video shows how a user would invoke the application from the command line, how a user would enter responses to all of the prompts in the application, and it displays the generated README that matches the user input and has a functioning table of contents.
+
+Walkthrough Video:
 ![Screenshot 1](https://media.giphy.com/media/lps3QZni7kvTU7vBDc/giphy.gif)
 ![Screenshot 2](https://media.giphy.com/media/uSKMOZrFWUaVNmES6a/giphy.gif)
 ![Screenshot 3](https://media.giphy.com/media/a2zBvfiywp2qtXMVZ1/giphy.gif)
 
 ## Credits
 
-* Tutorials used:
-    * 
+* Node.js: https://nodejs.org/en/
+* Inquirer Package: https://www.npmjs.com/package/inquirer
+* Licenses
+    * Badges: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+    * Text: https://choosealicense.com/licenses/
 
 
 ## License

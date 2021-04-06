@@ -19,6 +19,7 @@ const questions = [
         type: "input",
         message: "Describe the steps to install your project.",
         name: "installation",
+        default: "npm install",
     },
     {
         type: "input",
@@ -32,7 +33,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "Explain testing instructions",
+        message: "Explain testing instructions.",
         name: "testing",
     },
     {
@@ -40,25 +41,27 @@ const questions = [
         message: "Please choose a license for your project.",
         choices: ["MIT License", "GNU GPLv3", "Mozilla Public License 2.0", "Apache License 2.0", "Boost Software License 1.0", "The Unlicense"],
         name: "license",
+        default: "MIT License",
     },
     {
         type: "input",
-        message: "Enter your github username",
+        message: "Enter your github username:",
         name: "github",
     },
     {
         type: "input",
-        message: "Enter your email address for questions",
+        message: "Enter your email address for questions:",
         name: "email",
     },
     {
         type: "input",
-        message: "What year is it?",
+        message: "Please enter the year for license purposes.",
         name: "year",
+        default: "2021",
     },
     {
         type: "input",
-        message: "What is your full name?",
+        message: "Please enter your full name for license purposes.",
         name: "fullname",
     },
 ];
