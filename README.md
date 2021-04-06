@@ -3,6 +3,8 @@
 ## Description
 This application is a command line application that generates a ReadMe document in markdown. The application runs using Node.js and the Inquirer npm. The user responds to a series of prompts/questions and those answers are inserted into a readme template which dynamically generates uppon completion of the prompts. 
 
+Check out this sample [generatedReadMe.md](generatedReadMe.md)
+
 ### Functional Elements:
 
 * The user is prompted to answer a series of questions. Upon completion, a readme.md file is generated containing the following information:
