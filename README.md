@@ -31,6 +31,8 @@ In order to use this application, you must have Node.js installed, as well as th
 The following video shows how a user would invoke the application from the command line, how a user would enter responses to all of the prompts in the application, and it displays the generated README that matches the user input and has a functioning table of contents.
 
 Walkthrough Video:
+
+
 ![Screenshot 1](https://media.giphy.com/media/lps3QZni7kvTU7vBDc/giphy.gif)
 ![Screenshot 2](https://media.giphy.com/media/uSKMOZrFWUaVNmES6a/giphy.gif)
 ![Screenshot 3](https://media.giphy.com/media/a2zBvfiywp2qtXMVZ1/giphy.gif)
